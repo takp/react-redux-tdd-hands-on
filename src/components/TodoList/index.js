@@ -1,7 +1,13 @@
 import React from 'react'
 
-const TodoList = (props) => (
+/*
+class TodoList extends Component {
+}
+ */
+
+const TodoList = ({todos}) => (
     <ul className="todo-list">
+        { todos.map(todo => <li key="{todo.id}">{todo.title}</li>) }
     </ul>
 )
 
