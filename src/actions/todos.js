@@ -1,3 +1,5 @@
+import * as api from '../api'
+
 export const fetchTodosSuccess = (todos) => {
     return {
         type: 'FETCH_TODOS_SUCCESS',
@@ -6,12 +8,6 @@ export const fetchTodosSuccess = (todos) => {
 }
 
 export const fetchTodos = () => {
-    const todos = [
-        {
-            id: 1,
-            title: 'todo1'
-        }
-    ]
-
-    return fetchTodosSuccess(todos)
+    return api.fetchTodos()
+        .then(res => fetchTodosSuccess(res))
 }
