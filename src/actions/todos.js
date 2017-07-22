@@ -7,7 +7,22 @@ export const fetchTodosSuccess = (todos) => {
     }
 }
 
-export const fetchTodos = () => {
+
+/*
+ function incrementIfOdd() {
+ return (dispatch, getState) => {
+ const { counter } = getState();
+
+ if (counter % 2 === 0) {
+ return;
+ }
+
+ dispatch(increment());
+ };
+ }
+ */
+
+export const fetchTodos = () => (dispatch, getState) => {
     return api.fetchTodos()
-        .then(res => fetchTodosSuccess(res))
+        .then(res => dispatch(fetchTodosSuccess(res)))
 }

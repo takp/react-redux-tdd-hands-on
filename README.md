@@ -4,6 +4,12 @@
 $ create-react-app tdd-todo-app
 ```
 
+```
+$ yarn add redux
+$ yarn add redux-thunk
+$ yarn add redux-mock-store --dev
+```
+
 ## Bootstrapped with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
