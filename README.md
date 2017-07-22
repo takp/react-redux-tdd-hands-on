@@ -10,6 +10,10 @@ $ yarn add redux-thunk
 $ yarn add redux-mock-store --dev
 ```
 
+## Ref
+
+- [About Reducer](https://github.com/reactjs/redux/blob/master/docs/basics/Reducers.md)
+
 ## Bootstrapped with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
