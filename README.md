@@ -17,9 +17,15 @@ $ yarn add enzyme --dev
 $ yarn add react-test-renderer --dev
 ```
 
+Install react-redux
+```
+$ yarn add react-redux
+```
+
 ## Ref
 
 - [About Reducer](https://github.com/reactjs/redux/blob/master/docs/basics/Reducers.md)
+- [combineReducers](http://redux.js.org/docs/api/combineReducers.html)
 
 ## Bootstrapped with Create React App
 
