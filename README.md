@@ -1,8 +1,15 @@
-## Start
+# react-redux-tdd-hands-on
+
+## Run
+
+Use [create-react-app](https://github.com/facebookincubator/create-react-app)
 
 ```
-$ create-react-app tdd-todo-app
+$ yarn global add create-react-app
+$ create-react-app react-redux-tdd-hands-on
 ```
+
+Redux
 
 ```
 $ yarn add redux
