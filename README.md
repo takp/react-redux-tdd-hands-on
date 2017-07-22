@@ -22,11 +22,17 @@ Install react-redux
 $ yarn add react-redux
 ```
 
+```
+$ yarn start
+```
+
+Go to `http://localhost:4000`
+
 ## Ref
 
 - [About Reducer](https://github.com/reactjs/redux/blob/master/docs/basics/Reducers.md)
-- [combineReducers](http://redux.js.org/docs/api/combineReducers.html)
-
+- [redux: combineReducers](http://redux.js.org/docs/api/combineReducers.html)
+- [react-redux: api](https://github.com/reactjs/react-redux/blob/master/docs/api.md)
 ## Bootstrapped with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
