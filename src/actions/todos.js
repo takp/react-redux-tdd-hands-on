@@ -1,3 +1,10 @@
+export const fetchTodosSuccess = (todos) => {
+    return {
+        type: 'FETCH_TODOS_SUCCESS',
+        todos
+    }
+}
+
 export const fetchTodos = () => {
     const todos = [
         {
