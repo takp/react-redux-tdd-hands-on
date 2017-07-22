@@ -13,8 +13,5 @@ export const fetchTodos = () => {
         }
     ]
 
-    return {
-        type: 'FETCH_TODO',
-        todos
-    }
+    return fetchTodosSuccess(todos)
 }

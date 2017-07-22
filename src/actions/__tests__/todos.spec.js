@@ -5,7 +5,7 @@ describe('todos action', () => {
         {
             id: 1,
             title: 'todo1'
-        }
+        },
     ]
 
     // fetchTodosSuccess
@@ -22,7 +22,7 @@ describe('todos action', () => {
     describe('fetchTodos', () => {
         it('returns action', () => {
             expect(actions.fetchTodos()).toEqual({
-                type: 'FETCH_TODO',
+                type: 'FETCH_TODOS_SUCCESS',
                 todos
             })
         })
