@@ -10,6 +10,13 @@ $ yarn add redux-thunk
 $ yarn add redux-mock-store --dev
 ```
 
+Install Enzyme
+
+```
+$ yarn add enzyme --dev
+$ yarn add react-test-renderer --dev
+```
+
 ## Ref
 
 - [About Reducer](https://github.com/reactjs/redux/blob/master/docs/basics/Reducers.md)
